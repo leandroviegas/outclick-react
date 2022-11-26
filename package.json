@@ -1,0 +1,15 @@
+{
+  "name": "outclick-react",
+  "version": "1.0.0",
+  "description": "A outclick event component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {}
+}

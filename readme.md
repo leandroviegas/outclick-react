@@ -17,8 +17,8 @@ import OutClick from 'outclick-react';
 function App() {
   return (
     <OutClick
-      Callback={() => {
-        alert('You clicked outside of this component!!!');
+      callback={() => {
+        alert('You clicked outside this component!!!');
       }}>
       Hello World
     </OutClick>

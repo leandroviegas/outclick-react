@@ -9,6 +9,10 @@ or
 yarn add outclick-react
 ```
 
+## Description
+
+Library to handle outside clicks that also supports multiple components in the children.
+
 ## Usage
 
 ```tsx
@@ -17,10 +21,10 @@ import OutClick from 'outclick-react';
 function App() {
   return (
     <OutClick
-      callback={() => {
+      onOutClick={() => {
         alert('You clicked outside this component!!!');
       }}>
-      Hello World
+      {/* Component or multiple components */}
     </OutClick>
   );
 }

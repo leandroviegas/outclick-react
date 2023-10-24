@@ -1,0 +1,5 @@
+index.tsx
+tsconfig.json
+tsconfig.types.json
+.vscode
+.gitignore

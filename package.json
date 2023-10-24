@@ -1,15 +1,16 @@
 {
   "name": "outclick-react",
-  "version": "1.0.2",
+  "version": "1.1.17",
   "description": "A outclick event component",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/esm/index.js",
+  "typings": "dist/esm/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && tsc -b ./tsconfig.types.json"
   },
-  "author": "",
+  "author": "l3androviegas@gmail.com",
   "license": "ISC",
-  "dependencies": {
-    "react": "^18.2.0"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "react": ">=16.8.x"
+  }
 }

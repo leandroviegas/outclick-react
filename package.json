@@ -1,14 +1,34 @@
 {
   "name": "outclick-react",
-  "version": "1.1.17",
-  "description": "A outclick event component",
+  "version": "1.1.18",
+  "description": "A React component to handle clicks outside of one or more components",
   "type": "module",
   "main": "dist/esm/index.js",
   "typings": "dist/esm/index.d.ts",
+  "keywords": [
+    "react-outside",
+    "react outside",
+    "onOutSideClick",
+    "onOutClick",
+    "react-outclick",
+    "react outclick",
+    "react-outside-click",
+    "react outside click",
+    "react outside handler",
+    "react outside touch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandroviegas/outclick-react"
+  },
+  "author": {
+    "name": "Leandro Vigas",
+    "email": "l3androviegas@gmail.com",
+    "url": "https://leandroviegas.netlify.app"
+  },
   "scripts": {
     "build": "tsc && tsc -b ./tsconfig.types.json"
   },
-  "author": "l3androviegas@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "react": ">=16.8.x"
